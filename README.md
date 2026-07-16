@@ -43,7 +43,7 @@ Usage
 
 Every time your EC2 instance gets a new public IP:
 
-1. Double-click update-ec2-ip.bat
+1. Double-click update-ec2-ip.bat or run window cmd (not double-click) so any error text stays visible: type cmd /k "C:\Users\olaniyi\.ssh\update-ec2-ip.bat"
 2. Enter the new IP when prompted (format X.X.X.X, e.g. 3.88.159.130).
 3. That's it — your SSH config now points at the new IP under the same
    my-ec2 alias.
